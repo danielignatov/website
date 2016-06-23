@@ -25,6 +25,8 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+/* Code written by Daniel Ignatov and Atanas Tankov */
+
 body {
     font-family: 'Varela Round', sans-serif;
     color: white;
@@ -62,7 +64,7 @@ h2 {
 	height: 800px;
 	background-size: cover;
 	background-position: center;
-	background-image: url("./img/background2.jpg");
+	background-image: url("./img/background.jpg");
 }
 
 #person-name-header {
@@ -86,13 +88,6 @@ h2 {
 	background-color: black;
 	text-align: center;
 	margin-top: 2%;
-}
-
-#footer-info-left {
-	text-shadow: none;
-}
-
-#footer-info-right {
 	text-shadow: none;
 }
 
@@ -118,24 +113,30 @@ a:hover, a:active {
 	text-decoration: none;
 
 }
-/*ANIMATION*/
-.animate-top{
-    position:relative;
-    -webkit-animation:animatetop 3.4s;
-    animation:animatetop 3.4s
+
+/* Animation */
+.animate-top {
+    position: relative;
+    -webkit-animation: animatetop 3.4s;
+    animation: animatetop 3.4s
 }
-@-webkit-keyframes animatetop{
-    from{
-        top:40%;opacity:0
-        }
-         to{
-         top:0;opacity:1
-         }
- }
-@keyframes animatetop{
-    from{
-        top:40%;opacity:0
-        }to{
-        top:0;opacity:1
-        }
+
+@-webkit-keyframes animatetop {
+	from {
+		top: 40%;
+		opacity: 0
+	} to {
+    	top: 0;
+    	opacity: 1
+	}
+}
+
+@keyframes animatetop {
+    from {
+        top: 40%;
+        opacity:0
+    } to {
+        top: 0;
+        opacity: 1
+    }
 }
