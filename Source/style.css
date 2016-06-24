@@ -58,6 +58,11 @@ h2 {
 	text-shadow: 1px 1px 1px #888888;
 }
 
+/* Image align to text */
+img {
+    vertical-align: middle;
+}
+
 #content {
 	margin: 0 auto;
 	width: 100%;
