@@ -1,27 +1,29 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import Grid from '@mui/material/Grid';
+import Typography from '@mui/material/Typography';
 
 export default function Contact() {
     return (
-        <div className="row d-flex justify-content-center">
-            <div className="col-12 col-lg-4 d-flex justify-content-center">
-                <span className="contact-link">
-                <FontAwesomeIcon icon={faMapMarkerAlt} /> Sofia, Bulgaria
-                </span>
-            </div>
-            <div className="col-12 col-lg-4 d-flex justify-content-center">
-                <span className="contact-link">
+        <Grid container spacing={2} sx={{ paddingTop: 1, paddingBottom: 1 }}>
+            <Grid item xs={12} lg={4}>
+                <Typography align='center' variant='h6'>
+                    <FontAwesomeIcon icon={faMapMarkerAlt} /> Sofia, Bulgaria
+                </Typography>
+            </Grid>
+            <Grid item xs={12} lg={4}>
+                <Typography align='center' variant='h6'>
                     <a href="https://github.com/danielignatov" target="_blank">
-                    <FontAwesomeIcon icon={faGithub} /> github/danielignatov</a>
-                </span>
-            </div>
-            <div className="col-12 col-lg-4 d-flex justify-content-center">
-                <span className="contact-link">
+                        <FontAwesomeIcon icon={faGithub} /> github/danielignatov</a>
+                </Typography>
+            </Grid>
+            <Grid item xs={12} lg={4}>
+                <Typography align='center' variant='h6'>
                     <a href="https://www.linkedin.com/in/danielignatov/" target="_blank">
-                    <FontAwesomeIcon icon={faLinkedin} /> linkedin/danielignatov</a>
-                </span>
-            </div>
-        </div>
+                        <FontAwesomeIcon icon={faLinkedin} /> linkedin/danielignatov</a>
+                </Typography>
+            </Grid>
+        </Grid>
     );
 }

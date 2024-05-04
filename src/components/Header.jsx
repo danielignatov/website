@@ -1,10 +1,13 @@
+import Grid from '@mui/material/Grid';
+import Typography from '@mui/material/Typography';
+
 export default function Header() {
     return (
-        <div className="row">
-            <div className="col-12">
-                <h1 id="header-name" className="text-center">Daniel<strong>Ignatov</strong></h1>
-                <p id="header-profession" className="text-center"><strong>Software</strong>Developer</p>
-            </div>
-        </div>
+        <Grid container spacing={2} sx={{ paddingBottom: 3 }}>
+            <Grid item xs={12}>
+                <Typography variant='h4' align='center'>Daniel<strong>Ignatov</strong></Typography>
+                <Typography align='center'><strong>Software</strong>Developer</Typography>
+            </Grid>
+        </Grid>
     );
 }
