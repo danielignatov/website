@@ -14,13 +14,13 @@ export default function Contact() {
             </Grid>
             <Grid item xs={12} lg={4}>
                 <Typography align='center' variant='h6'>
-                    <a href="https://github.com/danielignatov" target="_blank">
+                    <a href="https://github.com/danielignatov" target="_blank" rel="noopener">
                         <FontAwesomeIcon icon={faGithub} /> github/danielignatov</a>
                 </Typography>
             </Grid>
             <Grid item xs={12} lg={4}>
                 <Typography align='center' variant='h6'>
-                    <a href="https://www.linkedin.com/in/danielignatov/" target="_blank">
+                    <a href="https://www.linkedin.com/in/danielignatov/" target="_blank" rel="noopener">
                         <FontAwesomeIcon icon={faLinkedin} /> linkedin/danielignatov</a>
                 </Typography>
             </Grid>

@@ -1,22 +1,25 @@
+import Background from './components/Background/Background';
+import Container from '@mui/material/Container';
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
 import Header from './components/Header';
 import Contact from './components/Contact';
 import About from './components/About';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import Container from '@mui/material/Container';
 
 function App() {
 
   return (
-    <Container sx={{ paddingTop: 5 }}>
-      <Card sx={{ padding: 5 }}>
-        <CardContent>
-          <Header />
-          <Contact />
-          <About />
-        </CardContent>
-      </Card>
-    </Container>
+    <Background>
+      <Container sx={{ paddingTop: 5 }}>
+        <Card sx={{ padding: 2 }}>
+          <CardContent>
+            <Header />
+            <Contact />
+            <About />
+          </CardContent>
+        </Card>
+      </Container>
+    </Background>
   )
 }
 
