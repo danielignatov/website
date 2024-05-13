@@ -3,7 +3,7 @@ import Container from '@mui/material/Container';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Header from './components/Header';
-import Contact from './components/Contact';
+import Contact from './components/Contact/Contact';
 import About from './components/About';
 
 function App() {
