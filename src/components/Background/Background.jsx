@@ -1,5 +1,5 @@
 import Footer from '../Footer/Footer'
-import waves from '../../assets/vid/waves-low.mp4';
+import waves from '../../assets/vid/waves.mp4';
 import './Background.css';
 
 export default function Background({ children }) {
