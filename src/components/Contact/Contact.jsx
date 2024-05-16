@@ -12,7 +12,7 @@ export default function Contact() {
                 <ContactItem Icon={<FontAwesomeIcon icon={faMapMarkerAlt} />} >Sofia, Bulgaria</ContactItem>
             </Grid>
             <Grid item xs={12} lg={4}>
-                <ContactLink Icon={<FontAwesomeIcon icon={faGithub} />} link="https://github.com/danielignatov" >linkedin/danielignatov</ContactLink>
+                <ContactLink Icon={<FontAwesomeIcon icon={faGithub} />} link="https://github.com/danielignatov" >github/danielignatov</ContactLink>
             </Grid>
             <Grid item xs={12} lg={4}>
                 <ContactLink Icon={<FontAwesomeIcon icon={faLinkedin} />} link="https://www.linkedin.com/in/danielignatov/" >linkedin/danielignatov</ContactLink>
