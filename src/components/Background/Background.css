@@ -2,7 +2,6 @@
     width: 100%;
     min-height: 100vh;
     position: relative;
-    background: center/cover no-repeat fixed url('/background.jpg');
 }
 
 .bg-image {
