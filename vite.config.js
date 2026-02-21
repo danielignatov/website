@@ -11,7 +11,8 @@ export default defineConfig({
   server: {
     port: 8080,
     strictPort: true,
-    host: true,
+    host: true, // This allows the server to be accessible on your network
+    // cors: true, // This enables CORS for the dev server
     origin: "http://0.0.0.0:8080",
   },
 });
